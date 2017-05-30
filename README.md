@@ -14,7 +14,8 @@ A relative flux graph corresponding to a transit of the example input file
 
 ### Used star
 (real size)
-The used image of the star. This is just a circle with an inner shadow to imitate lim darkening. It is not an actual observation of a star at a given spectrum.
+
+The used image of the star. This is just a circle with an inner shadow to imitate limb darkening. It is not an actual observation of a star at a given spectrum.
 
 ![star](./www/starlimbdarkening.png)
 
