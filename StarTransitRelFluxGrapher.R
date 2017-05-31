@@ -88,5 +88,6 @@ library("EBImage")
   }
   
   #EXAMPLE
-  #graphCurveForObject("intelobj1.png", filetype = "png")
-  #pathToCurveForObject("onepercenttriangle.png", "bottom", filetype = "png")
+  #graphCurveForObject("./www/intelobj1.png", filetype = "png")
+  #pathToCurveForObject("./www/onepercenttriangle.png", "bottom", filetype = "png")
+  

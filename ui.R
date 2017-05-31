@@ -18,28 +18,12 @@ no light reaches earth and grey tones for areas where it's partly blocked (i.e. 
                            width = "10000px"
                            ),
                  
-                 #imageOutput("file1", width = "100px"),
-                 
-                 #h4("Or try out these shapes"), #da zeige ich dann aber vorberechnete Graphen an
-                 #"Hier kommt eine 3x3 oder 4x4 Bilder Matrix hin mit verschiedenen Formen",
-                 
                  radioButtons("transitmode", "Latitude of transit",
                               c("top" = "top",
                                 "middle" = "middle",
                                 "bottom" = "bottom"),
                               selected = "middle")
-                 
-                 #img(src="sixteenpercenttriangle.png"),  img(src="onepercenttriangle.png"),  
-                 #img(src="twopercentobject.png"),
-                 
-                 #imageOutput("weirdobject", click = "image_click")
-                 
-                 
-                 
-                 
     ),
-    mainPanel(h3("Graph"), imageOutput("graph"), h4("Example Graph"), img(src="4percenttriangle_examplegraph.png"))
+    mainPanel(h4(textOutput("graphText")), imageOutput("graph"))
   )
 ))
-
-#?imageOutput
